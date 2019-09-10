@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/joe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/joe" />
+
+            <EditText
+                android:id="@+id/fireName"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:text="Insert Name Here" />
+
+            <EditText
+                android:id="@+id/fireSurname"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:text="Insert Surname Here" />
+
+            <EditText
+                android:id="@+id/fireReason"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:text="Fired For" />
+
+            <Button
+                android:id="@+id/btnPush"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
